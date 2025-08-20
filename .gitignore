@@ -1,5 +1,82 @@
-env
-.sqlite3
-.DS_Store
+# Python
 *.pyc
-.pyc
+*.pyo
+__pycache__/
+*.pyd
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual environment
+venv/
+env/
+ENV/
+.env/
+.venv/
+
+# Django
+*.log
+*.pot
+*.py[cod]
+__pycache__/
+db.sqlite3
+db.sqlite3-journal
+
+# Media files
+media/
+uploads/
+
+# Static files
+staticfiles/
+static/
+
+# Django local settings
+local_settings.py
+.settings/
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables
+.env
+*.env
+
+# Channels / ASGI / Daphne
+*.sock
+*.pid
+*.log
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Pytest
+.pytest_cache/
+.pytest_cache/*
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Redis / Celery
+celerybeat-schedule
+celerybeat.pid
+*.db
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node modules (if using JS frontend)
+node_modules/
